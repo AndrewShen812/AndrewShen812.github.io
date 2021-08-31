@@ -1,0 +1,68 @@
+<iframe frameborder="none" width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/13629"></iframe>
+
+<h1>AssetRefGenerator</h1>
+
+<iframe frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/13629"></iframe>
+
+<p><a href="https://github.com/AndrewShen812/AssetsRefGenerator/blob/master/README_zh.md">中文文档</a></p>
+
+<p>Makes it easier to use and preview assets in <a href="https://flutter.dev/">Flutter</a>, just like using R.drawable.xxx in Android!</p>
+
+<p>View asset images quickly in both yaml and dart file.</p>
+
+<p><img alt="yaml usage" src="https://andrewshen812.github.io/AssetRefGenerator/usage_yaml.gif"/>
+<img alt="dart usage" src="https://andrewshen812.github.io/AssetRefGenerator/usage_dart.gif"/></p>
+
+<p>Support asset image preview in a variety of dart code writing styles.</p>
+
+<p><img alt="dart usage" src="https://andrewshen812.github.io/AssetRefGenerator/usage_dev.gif"/></p>
+
+<h2>Features</h2>
+
+<h3>1.1.0</h3>
+
+<ul><li>You can view the asset image by click the gutter icon, or ctrl+click, or mouse hover, even you didn&#39;t generate the res.dart.</li><li>When rename a asset file, the related reference string will also be updated automatically.</li></ul>
+
+<h3>1.0.0</h3>
+
+<ul><li>Update assets declaration in pubspec.yaml automatically.</li><li>Generate a <strong>res.dart</strong> file contained assets definition.</li></ul>
+
+<h2>Getting started</h2>
+
+<ul>
+  <li>Open your Flutter project.</li>
+  <li>Create assets directory named asset, assets, or images, put your asset files in the directory.</li>
+  <li>Click the action button <img alt="Image text" src="https://andrewshen812.github.io/AssetRefGenerator/genAssetRef.svg"/> in the Toolbar.</li>
+  <li>Now you&#39;ll see the pubspec.yaml file has been updated, and a res.dart file also has been created under lib.</li>
+</ul>
+
+<h2>Change-notes</h2>
+
+<p>1.1.0</p>
+  <ul>
+  <li>When there&#39;s a asset reference in the code line, the editor will show a gutter icon. Clicking the gutter icon will open the asset file.</li>
+  <li>Support ctrl+click on asset reference to open the asset file in the editor.</li>
+  <li>Mouse hover on a asset reference in the code line, the documentation window will show the asset image preview.</li>
+  <li>Bug fix: the generated res.dart has syntax error when asset file name contains hyphen(<a href="https://github.com/AndrewShen812/AssetsRefGenerator/issues/8">#8</a>). The solution is to replace hyphen with a underline.</li>
+</ul>
+
+<p>1.0.1</p>
+  <ul>
+    <li>
+      Support Flutter Module, Package and Plugin project.
+    </li>
+    <li>
+      Ignore .DS_Store file on Mac OS X.
+    </li>
+  </ul>
+
+<p>1.0.0</p>
+  <ul>
+    <li>
+      Implement basic functions.
+    </li>
+  </ul>
+
+<h2>Thanks</h2>
+
+<ul><li>Logo and icon: <a href="https://www.iconfont.cn/search/index?q=flutter">Iconfont-阿里巴巴矢量图标库</a></li></ul>
